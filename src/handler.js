@@ -36,6 +36,8 @@ const addNoteHandler = (request, h) => {
   return response;
 };
 
+// Akhir dari AddNoteHandler
+
 const getAllNotesHandler = () => ({
   status: 'success',
   data: {
